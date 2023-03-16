@@ -1,0 +1,19 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0"]
+
+[project]
+name = "seleqt"
+version = "1.0"
+authors = [
+    {name = "Sascha Mücke", email = "sascha.muecke@tu-dortmund.de"}
+]
+description = "Quantum Feature Seletion (QFS) algorithm"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "numpy>=1.23.5"
+]
