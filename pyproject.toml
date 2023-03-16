@@ -12,7 +12,9 @@ description = "Quantum Feature Seletion (QFS) algorithm"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
-    "Programming Language :: Python :: 3"
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
 ]
 dependencies = [
     "numpy>=1.23.5"
